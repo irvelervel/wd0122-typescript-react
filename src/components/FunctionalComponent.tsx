@@ -2,7 +2,7 @@ import { useState } from 'react'
 
 interface FunctionalComponentProps {
   subTitle: string
-  subTitleColor: string
+  subTitleColor?: string
 }
 
 interface Pasta {
